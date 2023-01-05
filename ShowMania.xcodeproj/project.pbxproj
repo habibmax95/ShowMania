@@ -57,6 +57,8 @@
 		96541796296657530050C788 /* StringProtocol+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965417792965B97D0050C788 /* StringProtocol+Extension.swift */; };
 		96541797296657530050C788 /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965417772965B9590050C788 /* Data+Extension.swift */; };
 		96541798296657530050C788 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965417662965B4700050C788 /* String+Extension.swift */; };
+		9654179A29665B740050C788 /* TVShowViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9654179929665B740050C788 /* TVShowViewModelTests.swift */; };
+		9654179C29665BCB0050C788 /* DummyTVShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9654179B29665BCB0050C788 /* DummyTVShow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,6 +119,8 @@
 		9654178B296656950050C788 /* TVShowListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowListViewModelTests.swift; sourceTree = "<group>"; };
 		96541792296656F60050C788 /* DummySearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummySearchResult.swift; sourceTree = "<group>"; };
 		96541794296657190050C788 /* JSONMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONMapper.swift; sourceTree = "<group>"; };
+		9654179929665B740050C788 /* TVShowViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowViewModelTests.swift; sourceTree = "<group>"; };
+		9654179B29665BCB0050C788 /* DummyTVShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyTVShow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -290,6 +294,7 @@
 				96541784296651D30050C788 /* MockHTTPClient.swift */,
 				96541792296656F60050C788 /* DummySearchResult.swift */,
 				96541794296657190050C788 /* JSONMapper.swift */,
+				9654179B29665BCB0050C788 /* DummyTVShow.swift */,
 			);
 			path = Mock;
 			sourceTree = "<group>";
@@ -298,6 +303,7 @@
 			isa = PBXGroup;
 			children = (
 				9654178B296656950050C788 /* TVShowListViewModelTests.swift */,
+				9654179929665B740050C788 /* TVShowViewModelTests.swift */,
 			);
 			path = "ViewModels Tests";
 			sourceTree = "<group>";
@@ -472,7 +478,9 @@
 				96541796296657530050C788 /* StringProtocol+Extension.swift in Sources */,
 				9654178D296656C70050C788 /* TVShowViewModel.swift in Sources */,
 				9654178029664F110050C788 /* Endpoint.swift in Sources */,
+				9654179A29665B740050C788 /* TVShowViewModelTests.swift in Sources */,
 				96541795296657190050C788 /* JSONMapper.swift in Sources */,
+				9654179C29665BCB0050C788 /* DummyTVShow.swift in Sources */,
 				96541798296657530050C788 /* String+Extension.swift in Sources */,
 				965417882966522B0050C788 /* TVShow.swift in Sources */,
 				9654178E296656C90050C788 /* BaseViewModel.swift in Sources */,
