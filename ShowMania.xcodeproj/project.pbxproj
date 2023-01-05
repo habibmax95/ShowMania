@@ -40,6 +40,12 @@
 		9654177D2965CC7C0050C788 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9654177C2965CC7C0050C788 /* NetworkError.swift */; };
 		9654177F29664ED70050C788 /* EndpointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9654177E29664ED70050C788 /* EndpointTests.swift */; };
 		9654178029664F110050C788 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9654176B2965B53F0050C788 /* Endpoint.swift */; };
+		965417822966516C0050C788 /* HTTPClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965417812966516C0050C788 /* HTTPClientTests.swift */; };
+		96541785296651D30050C788 /* MockHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96541784296651D30050C788 /* MockHTTPClient.swift */; };
+		96541786296651FC0050C788 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9654177C2965CC7C0050C788 /* NetworkError.swift */; };
+		96541787296652030050C788 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9654176D2965B56E0050C788 /* HTTPClient.swift */; };
+		965417882966522B0050C788 /* TVShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965417472965B1080050C788 /* TVShow.swift */; };
+		965417892966522F0050C788 /* TVShowDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965417552965B2D50050C788 /* TVShowDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +101,8 @@
 		965417792965B97D0050C788 /* StringProtocol+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StringProtocol+Extension.swift"; sourceTree = "<group>"; };
 		9654177C2965CC7C0050C788 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		9654177E29664ED70050C788 /* EndpointTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndpointTests.swift; sourceTree = "<group>"; };
+		965417812966516C0050C788 /* HTTPClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClientTests.swift; sourceTree = "<group>"; };
+		96541784296651D30050C788 /* MockHTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockHTTPClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,8 +178,10 @@
 		965417292965B00B0050C788 /* ShowManiaTests */ = {
 			isa = PBXGroup;
 			children = (
+				96541783296651BB0050C788 /* Mock */,
 				9654172A2965B00B0050C788 /* ShowManiaTests.swift */,
 				9654177E29664ED70050C788 /* EndpointTests.swift */,
+				965417812966516C0050C788 /* HTTPClientTests.swift */,
 			);
 			path = ShowManiaTests;
 			sourceTree = "<group>";
@@ -257,6 +267,14 @@
 				9654177C2965CC7C0050C788 /* NetworkError.swift */,
 			);
 			path = Networking;
+			sourceTree = "<group>";
+		};
+		96541783296651BB0050C788 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				96541784296651D30050C788 /* MockHTTPClient.swift */,
+			);
+			path = Mock;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -423,7 +441,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9654177F29664ED70050C788 /* EndpointTests.swift in Sources */,
+				965417892966522F0050C788 /* TVShowDetails.swift in Sources */,
 				9654178029664F110050C788 /* Endpoint.swift in Sources */,
+				965417882966522B0050C788 /* TVShow.swift in Sources */,
+				965417822966516C0050C788 /* HTTPClientTests.swift in Sources */,
+				96541787296652030050C788 /* HTTPClient.swift in Sources */,
+				96541786296651FC0050C788 /* NetworkError.swift in Sources */,
+				96541785296651D30050C788 /* MockHTTPClient.swift in Sources */,
 				9654172B2965B00B0050C788 /* ShowManiaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
