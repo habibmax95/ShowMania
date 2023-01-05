@@ -60,6 +60,7 @@
 		9654179A29665B740050C788 /* TVShowViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9654179929665B740050C788 /* TVShowViewModelTests.swift */; };
 		9654179C29665BCB0050C788 /* DummyTVShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9654179B29665BCB0050C788 /* DummyTVShow.swift */; };
 		9654179E29665E2B0050C788 /* TVShowDetailScreenViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9654179D29665E2B0050C788 /* TVShowDetailScreenViewModelTests.swift */; };
+		965417A029665F940050C788 /* TVShowDetailsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9654179F29665F940050C788 /* TVShowDetailsViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,6 +124,7 @@
 		9654179929665B740050C788 /* TVShowViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowViewModelTests.swift; sourceTree = "<group>"; };
 		9654179B29665BCB0050C788 /* DummyTVShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyTVShow.swift; sourceTree = "<group>"; };
 		9654179D29665E2B0050C788 /* TVShowDetailScreenViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowDetailScreenViewModelTests.swift; sourceTree = "<group>"; };
+		9654179F29665F940050C788 /* TVShowDetailsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowDetailsViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -307,6 +309,7 @@
 				9654178B296656950050C788 /* TVShowListViewModelTests.swift */,
 				9654179929665B740050C788 /* TVShowViewModelTests.swift */,
 				9654179D29665E2B0050C788 /* TVShowDetailScreenViewModelTests.swift */,
+				9654179F29665F940050C788 /* TVShowDetailsViewModelTests.swift */,
 			);
 			path = "ViewModels Tests";
 			sourceTree = "<group>";
@@ -494,6 +497,7 @@
 				96541787296652030050C788 /* HTTPClient.swift in Sources */,
 				96541786296651FC0050C788 /* NetworkError.swift in Sources */,
 				9654178F296656CB0050C788 /* TVShowListViewModel.swift in Sources */,
+				965417A029665F940050C788 /* TVShowDetailsViewModelTests.swift in Sources */,
 				9654178C296656950050C788 /* TVShowListViewModelTests.swift in Sources */,
 				96541785296651D30050C788 /* MockHTTPClient.swift in Sources */,
 				9654172B2965B00B0050C788 /* ShowManiaTests.swift in Sources */,
